@@ -1,0 +1,24 @@
+Q9.Explain Encapsulation with an example. (Write at least 30-40 words).
+
+We need to build setter methods for every instance variable.
+For example, we need to have the maximum speed of the vehicle.
+
+Instead of writing "theCar.maxSpeed = 150;", which means someone else can make a direct
+change to the maximum speed of car,such that "theCar.maxSpeed = -1;", which is an unacceptable information.
+
+We need to build a setter method i.e
+public void setMaxSpeed(int speed){
+    if (speed > 0){
+        maxSpeed = speed;
+    }
+}
+
+To force other code to call the setter instead of access the data directly.
+
+
+Q10. What is the difference between Encapsulation and Abstraction
+Encapsulation is hiding the data and code into a single unit, to protect the work from directly access from outside.
+Abstraction allows us to focus on what the object does instead of how.
+
+Abstraction focus on what should be done, while Encapsulation focus on how it should be done.
+Abstraction is applied in design level, while Encapsulation is applied in implementation level.
