@@ -1,0 +1,13 @@
+The answer should be 6.
+
+When created item b,
+call b.addAll()------>the addCount = 3, since the list.size()=3;
+when it returns super.addAll(c), it calls the addAll method in A.
+Since the list has three elements which means the while loop goes three time, 
+this.add(), call the add method in class B, so the addCount++ goes for 3 times.
+
+Then the addCount=3+1+1+1=6;
+b.getAddCount()=6
+
+while b.getI()=0, since the getI() method has not been overwritten in classB, i = 0;
+Therefore the answer should be 6.

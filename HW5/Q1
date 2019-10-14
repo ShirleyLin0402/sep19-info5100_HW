@@ -1,0 +1,11 @@
+Final is used to apply restrictions on class, method and variable. 
+final class can't be inherited,  we can¡¯t extend that class or that class can¡¯t be extended 
+we can¡¯t make subclass of that class.
+
+final method can't be overridden
+final variable value can't be changed.
+
+Finally is used to place important code
+it will be executed whether exception is handled or not.
+The finally keyword is used in association with a try/catch block and guarantees that a section of code will be executed, 
+even if an exception is thrown.
