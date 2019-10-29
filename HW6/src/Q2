@@ -1,0 +1,9 @@
+ArraryList:
+use dynamic array to store elements.
+LinkedList:
+use a doubly linked list to store elements.
+
+ArrayList:
+act as a list only because it implements List only.
+LinkedList:
+act as a list and queue both because it implements List and Deque interfaces.
